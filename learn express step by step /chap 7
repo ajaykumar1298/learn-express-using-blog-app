@@ -1,0 +1,13 @@
+1.creaete new file name blogpost.handlebars in views folder
+
+2.paste this code in blogpost.handlebars
+
+//code start here
+
+ <div class="container my-3">
+  <h1>{{title}}</h1>
+  <p>{{desc}}</p>
+</div> 
+ //code end here
+
+3.check changes blog.js 3.
