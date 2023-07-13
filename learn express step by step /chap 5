@@ -1,0 +1,37 @@
+1.now learn about express hadle bars
+cmnd=>npm install express-handlebars
+
+2.check changes in index.js
+
+3.create new folder views
+
+4.create another new folder layoutes
+
+5.create file name main.handlebars in layoutes folder
+
+6.create file name home.handlebars in views folder
+
+7.paste this code in main.handlebars file
+
+//code start here
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Example App</title>
+</head>
+<body>
+
+{{{body}}}
+
+</body>
+</html>
+//code end here
+
+8.paste this code in home.handlebars file
+
+//code start here
+<h1>Example App: Home</h1>
+//code end here
+
+
+8.check changes in blog.js
