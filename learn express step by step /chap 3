@@ -1,0 +1,69 @@
+1.now create new folder name templates/index.html
+    paste this code in index.html
+
+    //code start here
+        <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+    </head>
+
+    <body>
+      this is home page
+    </body>
+
+    </html> 
+    //code end here 
+
+
+2.some changes in blog.js file go nd checked
+
+3.now new route created name as '/blog' checked in blog.js
+
+4.now create new file in templates called as blog.html
+
+  paste this code 
+    //code start here 
+          <!DOCTYPE html>
+      <html lang="en">
+
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>blog</title>
+      </head>
+
+      <body>
+        this is tha all blog post show here
+      </body>
+
+      </html>
+    //code end here 
+
+
+5.create new file in templates called blogpost.html and paste this code 
+
+//code start here 
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogpost</title>
+  </head>
+
+  <body>
+    blogpost content show here
+  </body>
+
+  </html>
+//code end here
+
+6.show changes in blog.js
