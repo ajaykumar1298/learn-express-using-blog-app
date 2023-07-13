@@ -1,0 +1,33 @@
+
+1.create new folder name =>Data/blogs.js
+
+2.paste this :
+
+  //start code here 
+  let blogs = [
+    {
+      title: "learn js",
+      desc: "this is about js",
+      slug: "learn-js",
+    },
+    {
+      title: "learn css",
+      desc: "this is about css",
+      slug: "learn-css",
+    },
+    {
+      title: "learn ts",
+      desc: "this is about ts",
+      slug: "learn-ts",
+    },
+    {
+      title: "learn java",
+      desc: "this is about java",
+      slug: "learn-java",
+    },
+  ];
+
+  module.exports = blogs;
+  //end code here 
+
+3.now check changes on blog.js file
