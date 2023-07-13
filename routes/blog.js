@@ -77,7 +77,10 @@ route.get("/", (req, res) => {
 });
 route.get("/blog", (req, res) => {
   // res.send("now page serve form blog.js")
-  res.sendFile(path.join(__dirname, "../templates/blog.html"));
+  // res.sendFile(path.join(__dirname, "../templates/blog.html"));
+  res.render("blog", {
+    blog: blogs,
+  });
 });
 
 route.get("/blog/:slug", (req, res) => {

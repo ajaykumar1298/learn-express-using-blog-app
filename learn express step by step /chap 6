@@ -1,0 +1,14 @@
+1.create new file blog.handlebars in viewlayout
+
+2.paste this code in blog.handlebars
+
+//code start here
+<div class="container my-3">
+{{#each blog}}
+<h1>{{this.title}}</h1>
+{{/each}}
+</div>
+//code end here
+
+3.changes in main.handlebars
+4.changes in blog.js
