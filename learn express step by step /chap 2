@@ -1,0 +1,24 @@
+#ye chap me routing sikhege
+
+1.create a folder name =>routes
+
+2.create a [file name =>blog.js] in routes folder 
+
+3.paste this code in blog.js
+
+  //start code here 
+    const express =require("express")
+    const route=express.Router()
+
+
+    route.get("/",(req,res)=>{
+      res.send("now page serve here")
+    })
+
+
+    module.exports=route
+  //end code here
+
+  4.now some changes index.js
+
+    show in index.js
