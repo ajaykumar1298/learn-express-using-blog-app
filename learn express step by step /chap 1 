@@ -1,0 +1,37 @@
+1.create npm init
+  npm init 
+
+2.install express
+  npm i express
+
+3.install nodemon 
+  npm i -D nodemon (D stand for dev dependency)
+
+4.create index.js file
+   copy code and paste in index.js file
+
+  //code start here 
+  const express = require('express')
+  const app = express()
+  const port = 3000
+
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+
+  app.listen(port, () => {
+    console.log(`Example app listening on port http://localhost:${port}`)
+  })
+  //code end here 
+
+5.run index.js 
+  nodemon .\index.js
+  
+    note: if nodemon gives error then run index.js cmnd
+        npx nodemon index.js
+
+6.create a new file for unnecessary file push of node modules  =>.gitignore
+  paste the code :
+    //start code here 
+      node_modules
+    //end code here 
